@@ -4,18 +4,22 @@
     <h1>Get the Latest Tech News</h1>
   </section>
   <section class="featured-posts">
-    <nuxt-link :to="'/posts' + 1">
-    <article class="post-preview">
-      <div class="post-thumbnail"> </div>
+    <nuxt-link class="post-preview" :to="'/posts' + 1">
+    <article >
+      <div class="post-thumbnail"> 
+        <img src="https://picsum.photos/400/300" alt="">
+      </div>
       <div class="post-content">
         <h2>Post Title</h2>
         <p>Post Excerpt</p>
       </div>
     </article>
    </nuxt-link>
-    <nuxt-link :to="'/posts' + 2">
-    <article class="post-preview">
-      <div class="post-thumbnail"> </div>
+    <nuxt-link class="post-preview" :to="'/posts' + 2">
+    <article>
+      <div class="post-thumbnail"> 
+      <img src="https://picsum.photos/400/300" alt="">
+      </div>
       <div class="post-content">
         <h2>Post Title</h2>
         <p>Post Excerpt</p>
@@ -45,8 +49,8 @@
   left: 5%;
   width: 90%;
   font-size: 1.5rem;
-  color: black;
-  background-color: rgb(211, 211, 211);
+  color: snow;
+  background-color: rgb(41, 37, 37);
   padding: 10px;
   border-radius: 10px;
   box-shadow: 3px 3px 3px black;
