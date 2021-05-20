@@ -15,13 +15,17 @@ export default {
       { rel: 'stylesheet', type: 'image/x-icon', href: 'https://fonts.googleapis.com/css2?family=Open+Sans' }
    ]
   },
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
+ // Global CSS: https://go.nuxtjs.dev/config-css
+css: [
+  // Main UIkit file
+  'uikit/dist/css/uikit.min.css',
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+],
+// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+plugins: [
+  { src: '~/plugins/uikit', ssr: false },
+  { src: '~/plugins/cards', ssr: false }
+],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
