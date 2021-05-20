@@ -20,6 +20,7 @@ css: [
   // Main UIkit file
   'uikit/dist/css/uikit.min.css',
 
+
 ],
 // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 plugins: [
