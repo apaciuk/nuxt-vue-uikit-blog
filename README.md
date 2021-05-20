@@ -1,5 +1,14 @@
 # nuxt-vue-vanilla-blog
 
+(Actually its UIKit)
+
+Demo sandbox view
+
+
+Code in sandbox view
+
+Netlify Deploy
+
 ## Build Setup
 
 ```bash
