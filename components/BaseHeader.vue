@@ -33,7 +33,7 @@ computed: mapGetters(['isAuthenticated'])
 </script>
 <style scoped>
 #site-head {
-background-color: #600dd4;
+background-color: #550ac5;
 padding-right: 50px;
 padding-left: 30px;
 }

@@ -28,12 +28,12 @@
   width: 90%;
   font-size: 1.5rem;
   color: snow;
-  background-color: rgb(41, 37, 37);
+  background-color: #e3073c;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 2px 2px 2px rgba(51, 48, 48, 0.7);
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 1px solid rgba(51, 48, 48, 0.7);
 }
 
 @media (min-width: 768px) {
