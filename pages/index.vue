@@ -5,60 +5,10 @@
   </section>
   <section>
   <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-    <nuxt-link class="post-preview" :to="'/posts' + 1">
-    <div>
-  	<div class="uk-card uk-card-large uk-card-default">
-							<div class="uk-card-header">
-                <h2>Awesome Title</h2>
-							</div>
-							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-									<img data-src="https://picsum.photos/500/320/?random=3" data-width="500" data-height="320" data-uk-img alt="" src="img/transp.gif">
-								
-								</div>
-							</div>
-							<div class="uk-card-body">
-				   	<p class="uk-text-small uk-text-muted">Post Excerpt Duis aute irure dolor in reprehenderit in voluptate velit</p>
-				</div>
-		</div>
-  </div>
-</nuxt-link>
-        <nuxt-link class="post-preview" :to="'/posts' + 1">
-    <div>
-  	<div class="uk-card uk-card-large uk-card-default">
-							<div class="uk-card-header">
-                <h2>Awesome Title</h2>
-							</div>
-							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-									<img data-src="https://picsum.photos/500/320/?random=2" data-width="500" data-height="320" data-uk-img alt="" src="img/transp.gif">
-								
-								</div>
-							</div>
-							<div class="uk-card-body">
-				   	<p class="uk-text-small uk-text-muted">Post Excerpt Duis aute irure dolor in reprehenderit in voluptate velit</p>
-				</div>
-		</div>
-  </div>
-</nuxt-link>
-        <nuxt-link class="post-preview" :to="'/posts' + 1">
-    <div>
-  	<div class="uk-card uk-card-large uk-card-default">
-							<div class="uk-card-header">
-                <h2>Awesome Title</h2>
-							</div>
-							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-									<img data-src="https://picsum.photos/500/320/?random=5" data-width="500" data-height="320" data-uk-img alt="" src="img/transp.gif">
-								
-								</div>
-							</div>
-							<div class="uk-card-body">
-				   	<p class="uk-text-small uk-text-muted">Post Excerpt Duis aute irure dolor in reprehenderit in voluptate velit</p>
-				</div>
-		</div>
-  </div>
-</nuxt-link>
+  <PostPreview />
+   <PostPreview />
+    <PostPreview />
+
 </div>
 </section>
   </div>
@@ -68,6 +18,7 @@
 				
   
 </template>
+
 <style scoped>
 .intro {
 
