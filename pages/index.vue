@@ -7,17 +7,17 @@
   <div class="uk-child-width-expand@s uk-text-center" uk-grid>
   <PostPreview
   id="1"
-  thumbnail="https://picsum.photos/500/320?grayscale" 
+  thumbnail="https://picsum.photos/500/320" 
   title="First post"
   previewText="This is my first post"/>
   <PostPreview
   id="1"
-  thumbnail="https://picsum.photos/500/320?grayscale" 
+  thumbnail="https://picsum.photos/500/320" 
   title="Second Post"
   previewText="This is my second post"/>
   <PostPreview
   id="1"
-  thumbnail="https://picsum.photos/500/320?grayscale" 
+  thumbnail="https://picsum.photos/500/320" 
   title="Third post"
   previewText="This is my third post"/>
 </div>
