@@ -1,6 +1,6 @@
 <template>
-    <nuxt-link class="post-preview" :to="'/posts' + id">
-  	<div class="uk-card uk-card-large uk-card-default">
+ <nuxt-link class="post-preview" :to="'/posts' + id">
+ <div class="uk-card uk-card-large uk-card-default">
 							<div class="uk-card-header">
                             <h2>{{ title }}</h2>
 							</div>
@@ -8,12 +8,10 @@
                              <img 
 							 :data-src="thumbnail" alt="" uk-img>
                              </div>
-							<div 
-							:style="{backgroundImage: 'url(' + thumbnail + ')'}"></div>
-							<div class="uk-card-body">
+						   <div class="uk-card-body">
 				            <p class="uk-text-medium">{{ previewText }}</p>
 	</div>
-    </div>
+  </div>
 </nuxt-link>
 </template>
 <script>
