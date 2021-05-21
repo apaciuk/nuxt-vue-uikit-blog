@@ -13,7 +13,7 @@
 							</div>
 							<div class="uk-card-media">
 								<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-									<img data-src="https://picsum.photos/400/470/?random=3" data-width="400" data-height="300" data-uk-img alt="" src="img/transp.gif">
+									<img data-src="https://picsum.photos/500/320/?random=3" data-width="500" data-height="320" data-uk-img alt="" src="img/transp.gif">
 								
 								</div>
 							</div>
@@ -31,7 +31,7 @@
 							</div>
 							<div class="uk-card-media">
 								<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-									<img data-src="https://picsum.photos/400/470/?random=2" data-width="400" data-height="300" data-uk-img alt="" src="img/transp.gif">
+									<img data-src="https://picsum.photos/500/320/?random=2" data-width="500" data-height="320" data-uk-img alt="" src="img/transp.gif">
 								
 								</div>
 							</div>
@@ -49,7 +49,7 @@
 							</div>
 							<div class="uk-card-media">
 								<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-									<img data-src="https://picsum.photos/400/470/?random=5" data-width="400" data-height="300" data-uk-img alt="" src="img/transp.gif">
+									<img data-src="https://picsum.photos/500/320/?random=5" data-width="500" data-height="320" data-uk-img alt="" src="img/transp.gif">
 								
 								</div>
 							</div>
