@@ -1,7 +1,5 @@
 <template>
-  <div class="posts-page">
-    <PostList />
-  </div>
+<PostList />
 </template>
 
 <script>
@@ -12,9 +10,5 @@ export default {
 
 
 <style scoped>
-.posts-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 </style>

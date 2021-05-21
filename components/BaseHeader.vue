@@ -8,7 +8,7 @@
 				    <div class="uk-width-auto">
 					 <ul class="uk-subnav" data-uk-margin>
 						  <li class="uk-visible@s"><NuxtLink to="/" exact>Admin</NuxtLink></li>
-						   <li class="uk-visible@s"><NuxtLink to="/contact">Blog</NuxtLink></li>
+						   <li class="uk-visible@s"><NuxtLink to="/posts">Blog</NuxtLink></li>
 							<li class="uk-visible@s"><NuxtLink to="/contact">About</NuxtLink></li>
 					        <li class="uk-visible@s"><NuxtLink to="/contact">Contact</NuxtLink></li>
 				            <NuxtLink to="/login" data-uk-icon="icon:user"></NuxtLink>
@@ -42,6 +42,9 @@ color:gainsboro;
 }
 #site-head a:hover {
 color:whitesmoke;
+}
+#site-head a.nuxt-link-active {
+color:#d40d1e;
 }
 
 h4.uk-margin-small-bottom {
