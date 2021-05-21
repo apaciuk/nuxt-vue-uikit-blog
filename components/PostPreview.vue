@@ -6,16 +6,14 @@
                             <h2>{{ title }}</h2>
 							</div>
 							<div class="uk-card-media">
-								<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-									<img data-src:{{ thumbnail }}
-									data-width="500" data-height="320" data-uk-img alt="" 
-									src="img/transp.gif">
-								</div>
+								<div class="post-thumbnail" 
+								:style="{backgroundImage: 'url(' + thumbnail + ')'}" >
+							</div>
 							</div>
 							<div class="uk-card-body">
-				   	<p class="uk-text-medium uk-text-muted">{{ previewText }}</p>
-				</div>
-		</div>
+				   	<p class="uk-text-medium">{{ previewText }}</p>
+	</div>
+    </div>
   </div>
 </nuxt-link>
 </template>

@@ -1,20 +1,29 @@
 <template>
   <div>
   <section class="intro">
-    <h1>Get the Latest Tech News</h1>
+  <h1>Get the Latest Tech News</h1>
   </section>
   <section>
   <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-  <PostPreview />
-   <PostPreview />
-    <PostPreview />
-
+  <PostPreview
+  id="1"
+  thumbnail="https://picsum.photos/500/320?grayscale" 
+  title="First post"
+  previewText="This is my first post"/>
+  <PostPreview
+  id="1"
+  thumbnail="https://picsum.photos/500/320?grayscale" 
+  title="Second Post"
+  previewText="This is my second post"/>
+  <PostPreview
+  id="1"
+  thumbnail="https://picsum.photos/500/320?grayscale" 
+  title="Third post"
+  previewText="This is my third post"/>
 </div>
 </section>
-  </div>
-
-
-	<!-- card -->
+</div>
+<!-- card -->
 				
   
 </template>
