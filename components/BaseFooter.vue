@@ -21,7 +21,7 @@
 <style scoped>
 .tm-footer {
 padding-top: 50px;
-background: #292525;
+background: #600dd4;
 }
 .uk-subnav a {
 color: lightgray;

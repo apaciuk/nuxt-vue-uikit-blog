@@ -1,7 +1,9 @@
 <template>
   <div>
+   <BaseHeader />
     <Nuxt />
   <BaseFooter />
+  <OffCanvas />
   </div>
 </template>
 

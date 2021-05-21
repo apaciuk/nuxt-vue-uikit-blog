@@ -2,14 +2,14 @@
  <nuxt-link class="post-preview" :to="'/posts' + id">
  <div class="uk-card uk-card-large uk-card-default">
 							<div class="uk-card-header">
-                            <h2>{{ title }}</h2>
+              <h2>{{ title }}</h2>
 							</div>
 							 <div class="uk-card-media-top">
-                             <img 
+               <img 
 							 :data-src="thumbnail" alt="" uk-img>
-                             </div>
+               </div>
 						   <div class="uk-card-body">
-				            <p class="uk-text-medium">{{ previewText }}</p>
+				      <p class="uk-text-medium">{{ previewText }}</p>
 	</div>
   </div>
 </nuxt-link>
