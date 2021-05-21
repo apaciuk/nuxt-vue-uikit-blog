@@ -9,7 +9,7 @@
 					 <ul class="uk-subnav" data-uk-margin>
 						  <li class="uk-visible@s"><NuxtLink to="/" exact>Admin</NuxtLink></li>
 						   <li class="uk-visible@s"><NuxtLink to="/posts">Blog</NuxtLink></li>
-							<li class="uk-visible@s"><NuxtLink to="/contact">About</NuxtLink></li>
+							<li class="uk-visible@s"><NuxtLink to="/about">About</NuxtLink></li>
 					        <li class="uk-visible@s"><NuxtLink to="/contact">Contact</NuxtLink></li>
 				            <NuxtLink to="/login" data-uk-icon="icon:user"></NuxtLink>
 							<li class="uk-hidden@s"><a data-uk-navbar-toggle-icon data-uk-toggle href="#offcanvas-nav"></a></li>
