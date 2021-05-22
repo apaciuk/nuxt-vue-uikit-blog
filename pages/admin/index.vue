@@ -3,7 +3,7 @@
   <section class="admin">
 
 <h1 class="uk-heading-bullet">Admin</h1>
-  <button class="uk-button uk-button-secondary">Create Post</button>
+<button @click="$router.push('/admin/new-post')" class="uk-button uk-button-secondary">Create Post</button>
 </section>
  <section class="admin">
 
@@ -21,3 +21,5 @@ export default {
  
 }
 </script>
+
+class="uk-button uk-button-secondary
