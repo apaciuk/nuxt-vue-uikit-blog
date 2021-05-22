@@ -1,11 +1,12 @@
 <template>
-  <section class="uk-margin-medium">
-  <div class="uk-container">
-     <h2>Admin</h2>
+ <div class="uk-container uk-margin-medium">
+  <section class="">
+
+    <h2>Admin</h2>
     <button class="uk-button uk-button-secondary">Create Post</button>
-  
-  </div>
 </section>
+ </div>
+
 </template>
 
 <script>

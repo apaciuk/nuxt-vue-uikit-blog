@@ -1,11 +1,12 @@
-<<template>
-  <section class="uk-margin-medium">
-  <div class="uk-container">
-     <h2>About</h2>
-  
-  
-  </div>
+<template>
+ <div class="uk-container uk-margin-medium">
+  <section class="">
+
+    <h2>About</h2>
+
 </section>
+ </div>
+
 </template>
 
 <style scoped>

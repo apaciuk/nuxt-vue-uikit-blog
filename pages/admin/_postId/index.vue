@@ -1,9 +1,10 @@
 <template>
-  <section class="uk-margin-medium">
-  <div class="uk-container">
-     <h2>Post Id</h2>
-  
-  
-  </div>
+ <div class="uk-container uk-margin-medium">
+  <section class="">
+
+    <h2>Post Id</h2>
+
 </section>
+ </div>
+
 </template>

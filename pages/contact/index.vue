@@ -1,11 +1,12 @@
 <template>
-  <section class="uk-margin-medium">
-  <div class="uk-container">
-     <h2>Contact</h2>
-  
-  
-  </div>
+ <div class="uk-container uk-margin-medium">
+  <section class="">
+
+    <h2>Contact</h2>
+
 </section>
+ </div>
+
 </template>
 
 <script>
