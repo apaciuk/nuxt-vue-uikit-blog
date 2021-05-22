@@ -7,7 +7,7 @@
 					</div>
 				    <div class="uk-width-auto">
 					 <ul class="uk-subnav" data-uk-margin>
-						  <li class="uk-visible@s"><NuxtLink to="/" exact>Admin</NuxtLink></li>
+						  <li class="uk-visible@s"><NuxtLink to="/admin" exact>Admin</NuxtLink></li>
 						   <li class="uk-visible@s"><NuxtLink to="/posts">Blog</NuxtLink></li>
 							<li class="uk-visible@s"><NuxtLink to="/about">About</NuxtLink></li>
 					        <li class="uk-visible@s"><NuxtLink to="/contact">Contact</NuxtLink></li>
