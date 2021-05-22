@@ -7,7 +7,7 @@
 </section>
  <section class="admin">
 
- <h2 class="uk-margin-top uk-heading-divider">Existing Posts</h2>
+ <h2 class="uk-margin-top uk-heading-divider uk-text-center">Existing Posts</h2>
  <PostList />
 </section>
  </div>
