@@ -21,5 +21,3 @@ export default {
  
 }
 </script>
-
-class="uk-button uk-button-secondary

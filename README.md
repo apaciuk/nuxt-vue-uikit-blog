@@ -11,6 +11,18 @@ Netlify Test Deploy
 
 https://csb-ns72f.netlify.app/
 
+# Author
+
+Paul Anhony McGowan
+
+# Repo
+
+https://github.com/xhostcom/nuxt-vue-vanilla-blog.git
+
+# Website
+
+https://www.xhostcom.com
+
 ## Build Setup
 
 ```bash

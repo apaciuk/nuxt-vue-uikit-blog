@@ -22,6 +22,10 @@ props: {
     type: String,
     required: true
   },
+  isAdmin: {
+      type: Boolean,
+      required: true
+  },
   title: {
     type: String,
     required: true
