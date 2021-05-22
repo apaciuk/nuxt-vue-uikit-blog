@@ -5,11 +5,12 @@
 				<button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
 			    <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{ multiple: true }">
 					<li class="uk-nav-header">Menu</li>
-					<li><a href="#js-options"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span>Admin</a></li>
-					<li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span> Blog</a></li>
+                    <li><NuxtLink to="/" exact><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: home"></span>Home</NuxtLink></li>
+					<li><NuxtLink to="/admin"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span>Admin</NuxtLink></li>
+					<li><NuxtLink to="/posts"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span>Blog</NuxtLink></li>
 					<li class="uk-nav-divider"></li>
-					<li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span> About</a></li>
-					<li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span> Contact</a></li>
+					<li><NuxtLink to="/about"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span>About</NuxtLink></li>
+					<li><NuxtLink to="/contact"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span>Contact</NuxtLink></li>
 				</ul>
 				<h3>Information</h3>
 				<p>Vue dynamic blog using UIKit 3, Nuxt Js and Vue JS, Auth0, Axios, PWA, Jest, with Off Canvas and other UIKit components.</p>

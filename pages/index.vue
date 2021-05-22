@@ -26,8 +26,9 @@
   top: 10%;
   left: 5%;
   width: 90%;
-  font-size: 1.5rem;
-  color: snow;
+  font-size: 1.6rem;
+  text-transform:uppercase;
+  color: rgb(223, 233, 225);
   background-color: #e3073c;
   padding: 10px;
   border-radius: 10px;
@@ -38,7 +39,7 @@
 
 @media (min-width: 768px) {
   .intro h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
