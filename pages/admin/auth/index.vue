@@ -1,7 +1,11 @@
 <template>
-  <div>
-   
+  <section class="uk-margin-large">
+  <div class="uk-container">
+     <h2>Auth</h2>
+  
+  
   </div>
+</section>
 </template>
 
 <script>

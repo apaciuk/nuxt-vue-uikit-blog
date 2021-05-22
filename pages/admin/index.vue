@@ -1,15 +1,11 @@
 <template>
-  <div>
-   <h2>Admin</h2>
-   This is my absolutely fantastic "Admin" Page!
-Its all me me me me me me me me me me me me me me me me me me me me me me me me me me !
-
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam officiis ab voluptatibus assumenda error quas deleniti eius? Suscipit, numquam? Quis aliquid non animi numquam amet voluptas dolorum sunt aspernatur commodi?
-
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam officiis ab voluptatibus assumenda error quas deleniti eius? Suscipit, numquam? Quis aliquid non animi numquam amet voluptas dolorum sunt aspernatur commodi?
-
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam officiis ab voluptatibus assumenda error quas deleniti eius? Suscipit, numquam? Quis aliquid non animi numquam amet voluptas dolorum sunt aspernatur commodi?
+  <section class="uk-margin-large">
+  <div class="uk-container">
+     <h2>Admin</h2>
+    <button class="uk-button uk-button-secondary">Create Post</button>
+  
   </div>
+</section>
 </template>
 
 <script>
