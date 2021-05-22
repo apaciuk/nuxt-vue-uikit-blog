@@ -19,6 +19,7 @@
 
 <script>
 export default {
+  layout: 'admin',
   name: 'AdminAuthPage',
   data() {
     return {

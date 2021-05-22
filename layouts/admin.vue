@@ -1,9 +1,8 @@
 <template>
-  <div>
-   <BaseHeader />
-    <Nuxt />
+  <div style="margin-top: 30px;">
+  <Nuxt />
   <BaseFooter />
-  <OffCanvas />
+ 
   </div>
 </template>
 
