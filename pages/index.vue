@@ -3,7 +3,7 @@
   <section class="intro">
   <h1>Get the Latest Tech News</h1>
   </section>
- <PostList />
+ <PostList :posts="loadedPosts" />
   </div>
 
 <!-- card -->
