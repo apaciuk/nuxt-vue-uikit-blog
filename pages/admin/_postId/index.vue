@@ -1,9 +1,8 @@
 <template>
  <div class="uk-container uk-margin-medium">
-  <section class="">
+  <section class="post-id">
 
-    <h2>Post Id</h2>
-
+   <h1 class="uk-heading-bullet">Post Id</h1>
 </section>
  </div>
 

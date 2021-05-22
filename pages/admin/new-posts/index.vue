@@ -1,8 +1,8 @@
 <template>
  <div class="uk-container uk-margin-medium">
-  <section class="">
+  <section class="new-posts">
 
-    <h2>New Posts</h2>
+<h1 class="uk-heading-bullet">New Posts</h1>
 
 </section>
  </div>
