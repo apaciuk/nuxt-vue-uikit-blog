@@ -20,7 +20,6 @@
 <script>
 export default {
   name: 'AdminAuthPage',
-  layout: 'admin',
   data() {
     return {
       isLogin: true
@@ -28,3 +27,7 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+</style>
