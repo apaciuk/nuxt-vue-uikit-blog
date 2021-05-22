@@ -39,10 +39,10 @@ padding-right: 50px;
 padding-left: 30px;
 }
 #site-head a {
-color:gainsboro;
+color:whitesmoke;
 }
 #site-head a:hover {
-color:whitesmoke;
+color: gainsboro;
 }
 #site-head a.nuxt-link-active {
 color:#d40d1e;

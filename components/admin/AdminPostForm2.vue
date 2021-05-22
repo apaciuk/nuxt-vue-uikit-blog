@@ -1,7 +1,7 @@
 <template>
     <form @submit.prevent="onSave">
     <fieldset class="uk-fieldset">
-       <legend class="uk-legend">Start A New Post</legend>
+       <legend class="uk-legend">Update Post</legend>
        <AppControlInput v-model="editedPost.author">Author Name</AppControlInput>
         <AppControlInput v-model="editedPost.title">Title</AppControlInput>
          <AppControlInput v-model="editedPost.thumbnailLink">Thumbnail Link</AppControlInput>
