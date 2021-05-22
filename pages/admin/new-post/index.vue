@@ -40,10 +40,10 @@ data () {
 },
 methods: {
   onSave() {
-    // Save the post
+    console.log(this.editedPost);
   },
   onCancel() {
-    // Navigate back
+    this.$router.push('/admin');
   }
 }
 }
