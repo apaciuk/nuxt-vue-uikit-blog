@@ -5,9 +5,32 @@
   </section>
  <PostList :posts="loadedPosts" />
   </div>
-
-<!-- card -->
 </template>
+ <script>
+ export default {
+     data () {
+    return {
+       loadedPosts: [
+         { id: "1", 
+         title: "A First Post", 
+         previewText: "Lorem Ipsum Lorem Ipsum", 
+         thumbnail: "https://picsum.photos/500/320" 
+         },
+            { id: "2", 
+         title: "A Second Post", 
+         previewText: "Lorem Ipsum Lorem Ipsum", 
+         thumbnail: "https://picsum.photos/500/320" 
+         },
+            { id: "3", 
+         title: "A third Post", 
+         previewText: "Lorem Ipsum Lorem Ipsum", 
+         thumbnail: "https://picsum.photos/500/320" 
+         }
+       ]
+    }
+  }
+ }
+ </script>
 
 <style scoped>
 .intro {
