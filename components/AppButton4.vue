@@ -1,6 +1,6 @@
 <template>
   <button
-    class="uk-button uk-button-secondary"
+    class="uk-button uk-button-primary"
     :class="btnStyle"
     v-bind="$attrs"
     v-on="$listeners"><slot /></button>
@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'AppButton1',
+  name: 'AppButton4',
   props: {
     btnStyle: {
       type: String,
@@ -17,6 +17,3 @@ export default {
   }
 }
 </script>
-
-
-

@@ -3,7 +3,7 @@
  <section class="admin">
 
 <h1 class="uk-heading-bullet">Admin</h1>
-<button @click="$router.push('/admin/new-post')" class="uk-button uk-button-secondary">Create Post</button>
+<AppButton1 @click="$router.push('/admin/new-post')" class="uk-button uk-button-secondary">Create Post</AppButton1>
 </section>
  <section class="admin">
 
