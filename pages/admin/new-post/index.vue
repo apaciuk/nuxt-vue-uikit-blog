@@ -2,7 +2,7 @@
  <div class="uk-container uk-margin-medium">
 <section class="new-posts">
 
-<h1 class="uk-heading-bullet">New Posts</h1>
+<h1 class="uk-heading-bullet">New Post</h1>
 <form @submit.prevent="onSave">
     <fieldset class="uk-fieldset">
        <legend class="uk-legend">Start A New Post</legend>

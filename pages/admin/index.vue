@@ -1,6 +1,6 @@
 <template>
  <div class="uk-container uk-margin-medium">
-  <section class="admin">
+ <section class="admin">
 
 <h1 class="uk-heading-bullet">Admin</h1>
 <button @click="$router.push('/admin/new-post')" class="uk-button uk-button-secondary">Create Post</button>
