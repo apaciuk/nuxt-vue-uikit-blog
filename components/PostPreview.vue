@@ -1,5 +1,5 @@
 <template>
- <nuxt-link class="post-preview" :to="'/posts' + id">
+ <nuxt-link class="post-preview" :to="postLink">
  <div class="uk-card uk-card-large uk-card-default">
 							<div class="uk-card-header">
               <h2>{{ title }}</h2>
@@ -37,6 +37,11 @@ props: {
   thumbnail: {
     type: String,
     required: true
+  }
+},
+computed: {
+  postLink() {
+    return this.isAdmin  ? '/admin/' + this.id : '/posts/' + this.id
   }
 }
 }
