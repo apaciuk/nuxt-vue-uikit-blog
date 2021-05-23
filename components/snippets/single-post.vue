@@ -1,6 +1,6 @@
 <template>
- <div class="uk-container uk-margin-medium">
- <section class="post">
+<div>
+<section class="post">
       <h1 class="uk-heading-bullet">{{ loadedPost.title }}</h1>
       <div class="post-details">
         <div class="post-detail">Last updated on {{ loadedPost.updatedDate }}</div>
@@ -12,10 +12,9 @@
       <p>Let me know what you think about the post, send a mail to <a href="mailto:support@xhostcom.com">support@xhostcom.com</a>.</p>
     </section>
  </div>
- 
-</template>
+ </template>
 <script>
-export default {
+  export default {
   asyncData(context, callback) {
     setTimeout(() => {
       callback(null, {
@@ -33,16 +32,3 @@ export default {
   }
 };
 </script>
-
-
-
-
-<style scoped>
-
-@media (min-width: 768px) {
- 
-}
-
-
-</style>
-
