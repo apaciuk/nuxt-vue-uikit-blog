@@ -36,6 +36,9 @@
       });
     }, 1500);
   },
+  created () {
+    this.$store.dispatch('setPosts', this.loadedPosts)
+  }
  }
  </script>
 
