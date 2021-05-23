@@ -8,27 +8,34 @@
 </template>
  <script>
  export default {
-     data () {
-    return {
-       loadedPosts: [
+     //data () {
+    //return {
+       //loadedPosts: []
+    //}
+  //},
+   asyncData(context, callback) {
+    setTimeout(() => {
+      callback(null, {
+        loadedPosts:[
          { id: "1", 
          title: "A First Post", 
          previewText: "Lorem Ipsum Lorem Ipsum", 
          thumbnail: "https://picsum.photos/500/320" 
          },
-            { id: "2", 
+         { id: "2", 
          title: "A Second Post", 
          previewText: "Lorem Ipsum Lorem Ipsum", 
          thumbnail: "https://picsum.photos/500/320" 
          },
-            { id: "3", 
+         { id: "3", 
          title: "A third Post", 
          previewText: "Lorem Ipsum Lorem Ipsum", 
          thumbnail: "https://picsum.photos/500/320" 
          }
        ]
-    }
-  }
+      });
+    }, 1500);
+  },
  }
  </script>
 
