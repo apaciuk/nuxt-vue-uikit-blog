@@ -12,7 +12,7 @@
 						   <li class="uk-visible@s"><NuxtLink to="/posts">Blog</NuxtLink></li>
 							<li class="uk-visible@s"><NuxtLink to="/about">About</NuxtLink></li>
 					        <li class="uk-visible@s"><NuxtLink to="/contact">Contact</NuxtLink></li>
-				            <NuxtLink to="/login" data-uk-icon="icon:user"></NuxtLink>
+				            <NuxtLink to="/admin/auth" data-uk-icon="icon:user"></NuxtLink>
 							<li class="uk-hidden@s"><a data-uk-navbar-toggle-icon data-uk-toggle href="#offcanvas-nav"></a></li>
 					       </ul>
 					</div>
@@ -23,13 +23,10 @@
      <!--/HEADER-->
 </template>
 <script>
-import ForkThis from '~/components/ForkThis'
-import { mapGetters } from 'vuex'
+
 export default {
-  components: {
-    ForkThis
- },
-computed: mapGetters(['isAuthenticated'])
+
+
 }
 </script>
 <style scoped>
@@ -47,12 +44,8 @@ color: gainsboro;
 #site-head a.nuxt-link-active {
 color:#d40d1e;
 }
-
 h4.uk-margin-small-bottom {
 text-transform: uppercase;
 font-size: 1em;
-}
-li.uk-visible@s a {
-padding-right: 20px;
 }
 </style>

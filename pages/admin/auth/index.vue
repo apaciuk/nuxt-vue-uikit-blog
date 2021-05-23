@@ -5,12 +5,12 @@
    <form>
         <AppControlInput type="email">E-Mail Address</AppControlInput>
         <AppControlInput type="password">Password</AppControlInput>
-        <AppButton1 type="submit">{{ isLogin ? 'Login' : 'Sign Up' }}</AppButton1>
-        <AppButton3
+        <AppButton type="submit">{{ isLogin ? 'Login' : 'Sign Up' }}</AppButton>
+        <AppButton
           type="button"
           btn-style="inverted"
           style="margin-left: 10px"
-          @click="isLogin = !isLogin">Switch to {{ isLogin ? 'Signup' : 'Login' }}</AppButton3>
+          @click="isLogin = !isLogin">Switch to {{ isLogin ? 'Signup' : 'Login' }}</AppButton>
  </form>
 </section>
  </div>

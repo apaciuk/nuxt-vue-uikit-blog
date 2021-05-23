@@ -14,7 +14,7 @@
 				</ul>
 				<h3>Information</h3>
 				<p>Vue dynamic blog using UIKit 3, Nuxt Js and Vue JS, Auth0, Axios, PWA, Jest, with Off Canvas and other UIKit components.</p>
-				<NuxtLink to="/login" id="login" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Login</NuxtLink>
+				<NuxtLink to="/admin/auth" id="login" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Login</NuxtLink>
 			</div>
 		</div>
 		<!-- /OFFCANVAS -->

@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'AppButton1',
+  name: 'AppButton',
   props: {
     btnStyle: {
       type: String,

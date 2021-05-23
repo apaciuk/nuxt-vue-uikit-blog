@@ -41,10 +41,38 @@ plugins: [
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // https://firebase.nuxtjs.org/guide/getting-started
+    '@nuxtjs/firebase'
   ],
+  firebase: {
+    config: {
+      apiKey: "AIzaSyCLp3Ioi-DdA1EK5yE-bIKBB9gluKIU4M4",
+      authDomain: "nuxtblog-4e44e.firebaseapp.com",
+      projectId: "nuxtblog-4e44e",
+      storageBucket: "nuxtblog-4e44e.appspot.com",
+      messagingSenderId: "232166662317",
+      appId: "1:232166662317:web:57c222c2fed11d01d5a624"
+    },
+    services: {
+      services: {
+        auth: true,
+        firestore: false,
+        firebase: true,
+        functions: true,
+        storage: true,
+        database: true,
+        messaging: true,
+        performance: true,
+        analytics: true,
+        remoteConfig: true
+      }
+    }
+ },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    // options
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {

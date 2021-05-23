@@ -1,9 +1,8 @@
 <template>
  <div class="uk-container uk-margin-medium">
  <section class="admin">
-
 <h1 class="uk-heading-bullet">Admin</h1>
-<AppButton1 @click="$router.push('/admin/new-post')" class="uk-button uk-button-secondary">Create Post</AppButton1>
+<AppButton @click="$router.push('/admin/new-post')">Create Post</AppButton>
 </section>
  <section class="admin">
 
@@ -11,9 +10,7 @@
  <PostList isAdmin />
 </section>
  </div>
-
 </template>
-
 <script>
 
 

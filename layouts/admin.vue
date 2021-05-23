@@ -1,6 +1,9 @@
 <template>
   <div style="margin-top: 30px;">
-  <Nuxt />
+   <Nuxt />
+   <div class="uk-container uk-container-small uk-text-center uk-margin">
+   <a class="uk-button uk-button-link" href="/">Home Page</a>
+   </div>
   <BaseFooter />
  
   </div>
@@ -18,7 +21,6 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after {
