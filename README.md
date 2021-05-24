@@ -1,6 +1,6 @@
-# nuxt-vue-vanilla-blog
+# nuxt-vue-uikit-blog
 
-(Actually its UIKit!)
+(UIKit 3!)
 
 Demo sandbox view
 https://codesandbox.io/s/frosty-brahmagupta-ns72f

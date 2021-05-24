@@ -77,7 +77,6 @@ plugins: [
       lang: 'en'
     }
   },
-  rootDir: '/',
   // Route all to root and active links
   router: {
   linkActiveClass: 'active',
@@ -91,6 +90,10 @@ plugins: [
   // Environment
   env: {
   baseUrl: process.env.BASE_URL || 'https://nuxtblog-4e44e-default-rtdb.europe-west1.firebasedatabase.app'
+  },
+  transition: {
+  name: 'fade',
+  mode: 'in-out'
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
