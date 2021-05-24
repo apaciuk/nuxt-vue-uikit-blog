@@ -4,6 +4,7 @@
 				<div class="uk-grid uk-grid-medium uk-flex uk-flex-middle uk-flex-between" data-uk-grid>
 					<div class="uk-width-auto" id="logo">
 				    <NuxtLink to="/" class="uk-logo" title="eCommerce"><img src="logo.png" alt="Logo"></NuxtLink>
+					    <NuxtLink to="/admin/auth" data-uk-icon="icon:user"></NuxtLink>
 					</div>
 				    <div class="uk-width-auto">
 					 <ul class="uk-subnav" data-uk-margin>
@@ -12,7 +13,7 @@
 						   <li class="uk-visible@s"><NuxtLink to="/posts">Blog</NuxtLink></li>
 							<li class="uk-visible@s"><NuxtLink to="/about">About</NuxtLink></li>
 					        <li class="uk-visible@s"><NuxtLink to="/contact">Contact</NuxtLink></li>
-				            <NuxtLink to="/admin/auth" data-uk-icon="icon:user"></NuxtLink>
+				        
 							<li class="uk-hidden@s"><a data-uk-navbar-toggle-icon data-uk-toggle href="#offcanvas-nav"></a></li>
 					       </ul>
 					</div>
