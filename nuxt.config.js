@@ -77,6 +77,18 @@ plugins: [
       lang: 'en'
     }
   },
+  rootDir: '/',
+  // Route all to root and active links
+  router: {
+  linkActiveClass: 'active',
+  extendRoutes(routes, resolve) {
+    routes.push({
+      path: '*',
+      component: resolve(__dirname, 'pages/index.vue')
+    })
+  }
+  },
+  // Environment
   env: {
   baseUrl: process.env.BASE_URL || 'https://nuxtblog-4e44e-default-rtdb.europe-west1.firebasedatabase.app'
   },
