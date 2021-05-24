@@ -42,26 +42,36 @@ const createStore = () => {
             },
             // Add Post
             addPost(vuexContext, post) {
-            const createdPost = {
-                ...post,
-                updatedDate: new Date()
-            }
-            this.$axios.$post(process.env.BASE_URL + '/posts.json?auth=' + vuexContext.state.token, createdPost )
-            .then(result => {
-                vuexContext.commit('addPost', {...createdPost, id: result.data.name } )
-                })
-                .catch(e => console.log(e))
-           },
-           // Edit Post
-           editPost(vuexContext, editedPost) {
-            this.$axios.$put(process.env.process.env.BASE_URL + '/posts/' +
-              editedPost.id +
-              ".json?auth=" + vuexContext.state.token, editedPost)
-              .then(res => {
-                 vuexContext.commit('editPost', editedPost)
-              })
-              .catch(e => console.log(e))
-           },
+                const createdPost = {
+                  ...post,
+                  updatedDate: new Date()
+                };
+                return this.$axios
+                  .$post(
+                    "https://nuxtblog-4e44e-default-rtdb.europe-west1.firebasedatabase.app/posts.json?auth=" +
+                      vuexContext.state.token,
+                    createdPost
+                  )
+                  .then(data => {
+                    vuexContext.commit("addPost", { ...createdPost, id: data.name });
+                  })
+                  .catch(e => console.log(e));
+              },
+              // Edit Post
+              editPost(vuexContext, editedPost) {
+                return this.$axios
+                  .$put(
+                    "https://nuxtblog-4e44e-default-rtdb.europe-west1.firebasedatabase.app/posts/" +
+                      editedPost.id +
+                      ".json?auth=" +
+                      vuexContext.state.token,
+                    editedPost
+                  )
+                  .then(res => {
+                    vuexContext.commit("editPost", editedPost);
+                  })
+                  .catch(e => console.log(e));
+            },
            // Set Post
            setPosts(vuexContext, posts) {
                vuexContext.commit('setPosts', posts)
