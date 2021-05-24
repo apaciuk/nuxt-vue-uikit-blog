@@ -30,19 +30,20 @@ export default {
   },
   methods: {
     onSubmit() {
-      this.$axios.$post('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=' + process.env.fbAPIKey, {
+     this.$store.dispatch('authenticateUser', {
+       isLogin: this.isLogin,
        email: this.email,
-       password: this.password,
-       returnSecureToken: true 
-      })
-      .then(result => {
-        console.log(result)
-      })
-      .catch(e => console.log(e));
+       password: this.password
+     })
+     .then(() => {
+       this.$router.push('/admin');
+     })
     }
   }
 }
 </script>
+
+
 
 <style scoped>
 
