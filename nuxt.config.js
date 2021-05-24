@@ -93,7 +93,8 @@ plugins: [
   },
   transition: {
   name: 'fade',
-  mode: 'in-out'
+  mode: 'in-out',
+  class: 'uk-transition-fade'
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
