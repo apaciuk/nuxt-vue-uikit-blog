@@ -8,13 +8,11 @@
                     <li><a href="https://github.com/xhostcom/nuxt-vue-vanilla-blog.git/wiki">Wiki</a></li>
                     <li><a href="https://gab.com/deepstatereality">Gab</a></li>
                 </ul>
-
                 <div class="uk-panel">
-                    <p>Made by <a href="http://www.xhostcom.com">Paul Anthony McGowan</a> with a lot of caffeine.<br class="uk-hidden-small">Licensed under <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
+                    <p>Made by <a href="http://www.xhostcom.com">Paul Anthony McGowan</a> with a lot of caffeine.<br class="uk-hidden-small">Built with <a href="https://nuxtjs.org/">Nuxt/Vue</a> and <a href="https://getuikit.com/">UIKit</a>.</p>
                     <a href="http://www.xhostcom.com"><img src="logo.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
                 </div>
-
-    </div>
+  </div>
 </div>
 </template>
 

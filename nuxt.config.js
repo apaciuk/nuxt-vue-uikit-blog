@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-vue-vanilla-blog',
+    title: 'Vue-Vanilla-Blog',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,23 +15,20 @@ export default {
       { rel: 'stylesheet', type: 'image/x-icon', href: 'https://fonts.googleapis.com/css2?family=Open+Sans' }
    ]
   },
+loading: false,
  // Global CSS: https://go.nuxtjs.dev/config-css
 css: [
   // Main UIkit file
   'uikit/dist/css/uikit.min.css',
-
-
 ],
 // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 plugins: [
   { src: '~/plugins/uikit', ssr: false }
 
 ],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
+ // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+ // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
   ],
 
@@ -80,7 +77,9 @@ plugins: [
       lang: 'en'
     }
   },
-
+  env: {
+  baseUrl: process.env.BASE_URL || 'https://nuxtblog-4e44e-default-rtdb.europe-west1.firebasedatabase.app'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
