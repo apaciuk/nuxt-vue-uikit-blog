@@ -23,8 +23,8 @@ css: [
 ],
 // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 plugins: [
-  { src: '~/plugins/uikit' },
-  { src: '~/plugins/date-filter' }
+  { src: '~/plugins/uikit', ssr: false },
+  { src: '~/plugins/date-filter', ssr: false }
 
 ],
  // Auto import components: https://go.nuxtjs.dev/config-components
@@ -70,7 +70,8 @@ plugins: [
  },
 // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.BASE_URL || 'https://nuxtblog-4e44e-default-rtdb.europe-west1.firebasedatabase.app'
+    baseURL: process.env.BASE_URL || 'https://nuxtblog-4e44e-default-rtdb.europe-west1.firebasedatabase.app',
+    credentials: false
   },
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
@@ -86,13 +87,15 @@ plugins: [
       path: '*',
       component: resolve(__dirname, 'pages/index.vue')
     })
-  }
+  },
+  middleware: 'log'
   },
   // Environment
   env: {
   baseUrl: process.env.BASE_URL || 'https://nuxtblog-4e44e-default-rtdb.europe-west1.firebasedatabase.app'
+  
   },
-  transition: {
+  pageTransition: {
   name: 'fade',
   mode: 'in-out',
   class: 'uk-transition-fade'
