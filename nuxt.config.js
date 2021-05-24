@@ -70,9 +70,8 @@ plugins: [
  },
 // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    // options
+    baseURL: process.env.BASE_URL || 'https://nuxtblog-4e44e-default-rtdb.europe-west1.firebasedatabase.app'
   },
-
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
