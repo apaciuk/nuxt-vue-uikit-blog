@@ -23,8 +23,8 @@ css: [
 ],
 // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 plugins: [
-  { src: '~/plugins/uikit', ssr: false },
-  { src: '~/plugins/date-filter', ssr: false }
+  { src: '~/plugins/uikit' },
+  { src: '~/plugins/date-filter' }
 
 ],
  // Auto import components: https://go.nuxtjs.dev/config-components
