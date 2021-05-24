@@ -23,23 +23,26 @@ css: [
 ],
 // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 plugins: [
-  { src: '~/plugins/uikit', ssr: false }
+  { src: '~/plugins/uikit', ssr: false },
+  { src: '~/plugins/date-filter', ssr: false }
 
 ],
  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    ['@nuxtjs/dotenv', { systemvars: true } ]
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
+// Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://firebase.nuxtjs.org/guide/getting-started
-    '@nuxtjs/firebase'
+    '@nuxtjs/firebase',
+   
   ],
   firebase: {
     config: {
@@ -65,8 +68,7 @@ plugins: [
       }
     }
  },
-
- // Axios module configuration: https://go.nuxtjs.dev/config-axios
+// Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // options
   },
