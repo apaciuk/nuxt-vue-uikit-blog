@@ -97,7 +97,7 @@ const createStore = () => {
     
        },
        getters: {
-           loadePosts(state) {
+           loadedPosts(state) {
                return state.loadedPosts
            }
        }

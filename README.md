@@ -1,6 +1,6 @@
 # nuxt-vue-uikit-blog
 
-(UIKit 3!)
+(UIKit 3!)  Firebase
 
 Demo sandbox view
 https://codesandbox.io/s/frosty-brahmagupta-ns72f
@@ -17,11 +17,15 @@ Paul Anhony McGowan
 
 # Repo
 
-https://github.com/xhostcom/nuxt-vue-vanilla-blog.git
+https://github.com/xhostcom/nuxt-vue-uikit-blog.git
 
 # Website
 
 https://www.xhostcom.com
+
+## Todo
+
+Finish it off
 
 ## Build Setup
 
@@ -38,6 +42,7 @@ $ npm run start
 
 # generate static project
 $ npm run generate
-```
+
+
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
